@@ -121,8 +121,4 @@ Formato y Tono: Pide un formato "muy corto (2-3 oraciones)" y un tono "divertido
 
 Este enfoque permite obtener respuestas pertinentes y utilizables para el propósito de la aplicación, incluso en un formato de Producto Mínimo Viable (MVP).
 
-🤝 Contribuciones
-¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, por favor, crea un "issue" para reportar un problema o sugerir una mejora, o envía un "pull request" con tus cambios.
 
-📄 Licencia
-Este proyecto está bajo la licencia MIT. Puedes ver los detalles completos en el archivo LICENSE (si lo incluyes en tu repositorio).
