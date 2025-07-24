@@ -133,18 +133,7 @@ cd ../frontend
 
 ## 🏗️ Diagrama de Arquitectura
 
-_Aquí es donde aparecerá tu diagrama de arquitectura una vez que lo crees y lo subas._
-
-### ¿Cómo agregarlo?
-
-1. Crea tu diagrama usando [Draw.io](https://draw.io) o [Excalidraw](https://excalidraw.com)
-2. Expórtalo como imagen (ej. `architecture.png`)
-3. Crea la carpeta `docs/` en la raíz del repositorio
-4. Sube la imagen ahí y agrégala al README con:
-
-```markdown
-![Diagrama de Arquitectura](docs/architecture.png)
-```
+https://drive.google.com/file/d/1TFQDw441G6IdQWntz4rSyKqb6N1JCfu7/view?usp=sharing
 
 ---
 
