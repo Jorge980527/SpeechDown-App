@@ -1,3 +1,11 @@
+# Esto es un Título Grande
+
+Esto es un párrafo con **texto en negrita** y *texto en cursiva*.
+
+* Elemento de lista 1
+* Elemento de lista 2
+
+
 SpeechDown: Aplicación Web Responsive para el Apoyo al Desarrollo del Habla 🗣️👶
 📝 Descripción del Proyecto
 Este proyecto es una aplicación web MVP (Producto Mínimo Viable) diseñada para apoyar el desarrollo del habla en niños, especialmente aquellos con Síndrome de Down. Su objetivo principal es proporcionar una herramienta interactiva que genere ejercicios de habla personalizados mediante la integración de Inteligencia Artificial generativa.
