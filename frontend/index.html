@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeechDown MVP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SpeechDown: Actividad de Habla con IA</h1>
+        <p>Ingresa una palabra para generar un ejercicio personalizado:</p>
+        <input type="text" id="wordInput" placeholder="Ej: mamá, perro, agua">
+        <button id="generateBtn">Generar Actividad</button>
+        <p id="loadingMessage" class="hidden">Generando...</p>
+        <div id="activityOutput" class="activity-box">
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

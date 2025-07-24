@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinea al inicio vertical para evitar que se pegue al centro */
+    min-height: 100vh;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 40px 20px; /* Espacio superior e inferior */
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 20px; /* Espacio extra arriba si la pantalla es alta */
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px); /* Ajusta el ancho */
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cceeff;
+    border-radius: 8px;
+    font-size: 1.1em;
+    box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+}
+
+button {
+    background-color: #007bff; /* Color azul de Bootstrap */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.activity-box {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #f0faff; /* Un azul muy claro */
+    border: 1px solid #aaddff;
+    border-radius: 8px;
+    text-align: left;
+    min-height: 100px; /* Asegura un mínimo de altura */
+    word-wrap: break-word; /* Para que el texto largo se ajuste */
+    color: #333;
+    line-height: 1.6;
+    font-size: 1.1em;
+    white-space: pre-wrap; /* Mantiene saltos de línea del IA */
+}
+
+.hidden {
+    display: none;
+}
+
+#loadingMessage {
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Media Queries para responsividad básica */
+@media (max-width: 768px) {
+    .container {
+        padding: 25px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px 10px;
+    }
+    .container {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    input[type="text"], button {
+        width: 100%;
+        font-size: 1em;
+    }
+    .activity-box {
+        font-size: 1em;
+    }
+}

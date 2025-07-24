@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+venv/  # Ignora la carpeta del entorno virtual
+
+# Claves de API y configuraciones sensibles
+.flaskenv
+*.env
+.DS_Store # Archivos de macOS
+
+# Archivos de logs
+*.log
